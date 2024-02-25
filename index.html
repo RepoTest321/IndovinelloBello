@@ -98,25 +98,13 @@
     background-color: #0056b3;
   }
 
-  .advertisement {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 999; /* Assicura che la pubblicità sia sopra gli altri elementi */
-  }
-
-  .advertisement_right {
-    right: 20px;
-  }
-
-  .advertisement_left {
-    left: 20px;
-  }
 
   .advertisement img {
     max-width: 200px;
     height: auto;
-  }
+    margin: 30px 43%;
+}
+
 
 
 </style>
@@ -134,13 +122,8 @@
     <a href="#">Next</a>
 </div>
 
-<div class="advertisement advertisement_right">
-    <img src="ad.png">
-</div>
+
   
-<div class="advertisement advertisement_left">
-    <img src="ad2.png">
-</div>
   
 
 <div class="riddle-container">
@@ -148,6 +131,10 @@
   <p>Sono una parola di cinque lettere, ma se mi togli una lettera, rimango la stessa. Che cosa sono?</p>
   <button class="solution-toggle" onclick="toggleSolution('solution1', this)">Mostra Soluzione</button>
   <p class="solution" id="solution1">Sono una posta. Se mi togli una lettera, rimango una posta.</p>
+</div>
+
+<div class="advertisement">
+  <img src="ad.png">
 </div>
 
 <div class="riddle-container">
@@ -169,6 +156,11 @@
     <p>Un uomo entra in una stanza buia e vede una grande scatola di legno. Dentro la scatola ci sono 10 gatti neri e 10 gatti bianchi. L’uomo deve dividere i gatti in due gruppi, in modo che ci sia lo stesso numero di gatti neri e bianchi in ogni gruppo. Come può farlo senza accendere la luce?</p>
     <button class="solution-toggle" onclick="toggleSolution('solution4', this)">Mostra Soluzione</button>
     <p class="solution" id="solution4">L’uomo deve dividere i gatti in due gruppi, uno con 10 gatti e l’altro con 10 gatti. Non importa il colore dei gatti, basta che ci siano 10 gatti in ogni gruppo. In questo modo, ci sarà lo stesso numero di gatti neri e bianchi in ogni gruppo, perché la somma dei gatti neri e bianchi è sempre 20. Questo indovinello si basa sul principio matematico che se a + b = c, allora a - b = c - 2b.</p>
+</div>
+
+
+<div class="advertisement">
+  <img src="ad2.png">
 </div>
 
 <div class="riddle-container">
